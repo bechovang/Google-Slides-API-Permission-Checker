@@ -1,3 +1,15 @@
+###  Tạo credentials.json
+1. Vào [Google Cloud Console](https://console.cloud.google.com)
+2. Tạo project mới hoặc chọn project có sẵn
+3. Enable **Google Slides API**:
+   - APIs & Services → Library → tìm "Google Slides API" → Enable
+4. Tạo credentials:
+   - APIs & Services → Credentials → Create Credentials → OAuth client ID
+   - Application type: **Desktop application**
+   - Tên: "Slides Checker" (tùy ý)
+   - Download file JSON → đổi tên thành `credentials.json`
+------------------
+
 # Google Slides API Permission Checker
 
 A Python tool to test and verify access permissions for Google Slides presentations using the Google Slides API.
