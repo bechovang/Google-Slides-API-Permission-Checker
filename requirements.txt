@@ -1,0 +1,68 @@
+# Google Slides API Permission Checker - Dependencies
+# Core Google API libraries
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=0.4.0
+
+# Additional dependencies for enhanced functionality
+# (Uncomment if needed for future features)
+
+# For better HTTP handling
+# requests>=2.25.0
+
+# For JSON handling (included in Python standard library)
+# json
+
+# For URL parsing (included in Python standard library)
+# urllib.parse
+
+# For regular expressions (included in Python standard library)
+# re
+
+# For file system operations (included in Python standard library)
+# os, pathlib
+
+# For system operations (included in Python standard library)
+# sys
+
+# Development dependencies (uncomment for development)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+# isort>=5.0.0
+# mypy>=0.800
+
+# Security audit tools (uncomment for security checks)
+# safety>=1.10.0
+
+# Performance monitoring (uncomment if needed)
+# psutil>=5.8.0
+
+# Logging enhancement (uncomment if needed)
+# colorlog>=6.0.0
+
+# Configuration management (uncomment if needed)
+# python-dotenv>=0.19.0
+
+# CLI enhancement (uncomment if needed)
+# click>=8.0.0
+# rich>=10.0.0
+
+# Testing and mocking (uncomment for testing)
+# pytest-mock>=3.6.0
+# pytest-cov>=2.12.0
+
+# Documentation generation (uncomment if needed)
+# sphinx>=4.0.0
+# sphinx-rtd-theme>=0.5.0
+
+# Packaging and distribution (uncomment if needed)
+# setuptools>=57.0.0
+# wheel>=0.37.0
+# twine>=3.4.0
+
+# Docker support (uncomment if needed)
+# docker>=5.0.0
+
+# Version management (uncomment if needed)
+# semver>=2.13.0 
